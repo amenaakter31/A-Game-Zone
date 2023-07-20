@@ -176,7 +176,7 @@ header{
 }
 
 .image-container{
-    width: 85%;
+    width: 92%;
     margin: 0 auto;
 }
 .image-details h3{
@@ -203,8 +203,8 @@ header{
 .image-photo{
      display: flex;
      text-align: center;
-     margin: 24px;
-     gap: 24px;
+     /* margin: 24px; */
+     gap: 10px;
 }
 .image-photo > .image-hover:hover{
      
@@ -233,6 +233,7 @@ header{
     justify-content: space-around;
     align-items: center;
     text-align: ;
+    gap:60px;
 }
 
 .section4-details h1{
@@ -294,7 +295,9 @@ header{
     justify-content: space-around;
     align-items: center;
     text-align: left;
+    gap: 120px;
 }
+
 .image-dphotos{
     border-radius: 8px;
     width: 710px;
@@ -309,6 +312,10 @@ header{
     bottom: 200px;
     left: 500px;
     border-radius: 8px;
+}
+
+.dphotos-details{
+   
 }
 .dphotos-details h1{
 width: 426px;
@@ -338,8 +345,8 @@ line-height: 60px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    padding: 100px;
+    gap: 20px;
+    padding: 20px;
     margin: 0 auto;
 }
 .cart-container{
@@ -447,3 +454,14 @@ footer{
 }
 
 /* footer section end */
+
+
+@media screen and (max-width: 576px) {
+    .head-section{
+
+flex-direction: column;
+background-color: red;
+
+
+}
+}
