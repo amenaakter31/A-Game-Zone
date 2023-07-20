@@ -82,8 +82,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    color: #3C354F;
+    text-align: center; 
+    color: hsl(256, 20%, 26%);
     font-size: 18px;
     font-weight: 500;
 
@@ -94,14 +94,12 @@ header{
  .navber  .follow{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    width: 262px;
-    height: 56px;
-    padding-bottom: 85px;
-    padding-right: 35px;
-    padding-left: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 18px;
+    padding-bottom: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 15px;
     border: 0;
 }
 
@@ -176,7 +174,7 @@ header{
 }
 
 .image-container{
-    width: 92%;
+    width: 90%;
     margin: 0 auto;
 }
 .image-details h3{
@@ -423,8 +421,7 @@ footer{
 
 }
 .fa-brands{
-        width: 40px;
-        height: 40px;
+        font-size: 2rem;
         margin-top: 30px;
         padding-left: 40px;
 }
